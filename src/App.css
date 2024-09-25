@@ -1,0 +1,45 @@
+/* src/App.css */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.counter-container {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 8px;
+}
+
+.counter-button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.increment {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.increment:hover {
+  background-color: #45a049;
+}
+
+.decrement {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.decrement:hover {
+  background-color: #d32f2f;
+}
